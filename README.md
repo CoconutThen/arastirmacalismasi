@@ -5,7 +5,7 @@ I've used conda for python environment. To clone this project follow these steps
 1.Install conda.  
 2.Create a conda environment from the file in the repository which is 'environment.yml'.To create environment from yml file use following code in your terminal or in your command prompt: conda env create -f environment.yml  
 3.The created conda environment will be named py37 use this environment in your IDE as python interpreter.  
-4.Download and unzip the dataset from: http://peipa.essex.ac.uk/info/mias.html
+4.Download and unzip the dataset from: http://peipa.essex.ac.uk/info/mias.html  
 5.Update the file path to your current filepath of dataset's in line 7 which is stored in variable base_dir.  
 6.Run the code.
 Note: Be aware of environment.yml is configured for Apple M Series Chipset. To use it on x86 processors (intel - amd) you may need to open yml file and install the python packages manually.
